@@ -157,7 +157,7 @@ export default function FuturisticHero() {
         <SolarSystem onInsideSun={setInsideSun} destination={destination} onArrive={() => setDestination(null)} />
       </Canvas>
       <div className="pointer-events-none absolute inset-x-0 top-0 z-10 bg-gradient-to-b from-black/80 via-black/25 to-transparent px-6 py-8 text-center text-white">
-        <p className="text-xs font-semibold uppercase tracking-[0.4em] text-amber-200/85">Interactive universe</p>
+        <p className="text-xs font-semibold uppercase tracking-[0.4em] text-amber-200/85">TomTam universe</p>
         <h1 className="mt-3 text-4xl font-black tracking-tight sm:text-6xl">ระบบสุริยจักรวาล</h1>
       </div>
       <div className="pointer-events-none absolute bottom-7 left-1/2 z-10 -translate-x-1/2 rounded-full border border-white/20 bg-black/40 px-4 py-2 text-center text-xs font-medium tracking-wide text-white/85 backdrop-blur-sm">
